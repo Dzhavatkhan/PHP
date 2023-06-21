@@ -1,0 +1,96 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    margin-top: 25px !important;
+}
+table{
+    height: 738px;
+    width: 1000px;
+    border: transparent !important;
+}
+table div{
+    border-radius: 30px !important;
+    background-color: #113691 !important;
+}
+h3{
+    margin-left: 845px !important;
+    width: 300px !important;
+}
+table a{
+    width: 55px;
+    height: 55px;
+    position: relative;
+    top: 10px;
+    font-family: 'Inter' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 32px !important;
+    line-height: 39px !important;
+    /* identical to box height */
+    color: white;
+    text-align: center !important;
+}
+.lil a{
+    left: 20px !important;
+}
+.big a{
+    left: 14px !important;
+}
+body{
+    width: 99vw;
+    height: 100vh;
+    background-image: url(/assets/img/Booking-calendar.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.today{
+    color: white !important;
+    text-align: "center" !important;
+    background: #194DD1 !important;
+    border-radius: 30px !important;
+    width: 60px;
+    height: 60px;
+    
+}
+
+.date_bord{
+    text-align: "center" !important;
+    width: 60px;
+    height: 60px;
+}
+.next, .back{
+    color: #043ED1 !important;
+}
+a{
+text-decoration: none !important;
+color: white !important;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+text-align: center;
+}
+  .lock {
+    border-radius: 30px !important;
+    text-align: "center" !important;
+    background: #1A2A52 !important;
+    width: 60px;
+    height: 60px;
+
+  }
+
+  thead{
+    color: #ffff;
+  }
+
+  td div a{
+    text-align: "center" !important;
+  }

@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+
+
+}
+.container{
+    background: transparent !important;
+}
+body{
+    background-image: url(../assets/img/Booking-calendar.png);
+    width: 99vw;
+    background-repeat: no-repeat;
+}
+h2{
+    position: relative;
+    top: 108px !important;
+    font-family: 'Open Sans' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 48px !important;
+    line-height: 65px !important;
+    text-align: center !important;
+
+    color: #FFFFFF;
+    
+}
+input{
+    position: relative;
+    left: 378px !important;
+    top: 76px !important;
+    margin-top: 58px !important;
+    width: 564px !important;
+    height: 74px !important;
+    outline: #0158DD !important;
+    background: #FFFFFF;
+    font-family: 'Cabin' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 32px !important;
+    line-height: 39px !important;
+}
+input::placeholder{
+    font-family: 'Cabin' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 32px !important;
+    line-height: 39px !important;
+}
+button{
+    background: linear-gradient(90deg, #E65C00 0%, #F9D423 100%) !important;
+    border-radius: 23px !important;
+    border: transparent !important;
+    width: 564px;
+    height: 74px;
+    position: relative;
+    left: 378px;
+    top: 135px !important;
+    font-family: 'Cabin' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 48px !important;
+    line-height: 58px !important;
+    text-align: center !important;
+}
+a{
+    color: #fff !important;
+}
+.back{
+    position: absolute;
+    width: 50px !important;
+    height: 50px !important;
+    left: 110px !important;
+    top: 85px !important;
+}
+.alert{
+    background-color: white !important;
+    color: #032785 !important;
+    position: absolute; top: 250px !important;
+}
+p{
+    position: relative;
+    top: 150px !important;
+    left: 390px !important;
+    color: #fff;
+    font-family: 'Cabin' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 24px !important;
+    line-height: 24px !important;
+    width: 450px !important;
+}
+p a{
+    color: #F9D423 !important;
+}
+img{
+    position: absolute;
+    width: 136px;
+    height: 136px;
+    left: 99.3px !important;
+    top: 786px !important;
+}

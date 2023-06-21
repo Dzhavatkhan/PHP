@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-image: url("/assets/img/Booking-calendar.png");
+    width: 1903px;
+    height: 900px;
+}
+h2{
+    color: white !important;
+    width: 319px !important;
+    margin-top: 23px !important;
+    margin-left: 508px !important;
+    font-family: 'Open Sans' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 48px !important;
+    line-height: 65px !important;
+    text-align: center !important;
+
+}
+.form-control{
+    width: 564px !important;
+    height: 74px !important;
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px !important;
+    line-height: 39px;
+    margin-left: 372px;
+    margin-top: 58px;
+}
+.back{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 130px;
+    top: 89px;
+}
+.form{
+    position: relative;
+    top: -17px !important;
+}
+.form-control::placeholder{
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+}
+.btn{
+    width: 564px;
+    height: 74px;
+    margin-top: 50px;
+    margin-left: 373px;
+    background: linear-gradient(90deg, #E65C00 0%, #F9D423 100%);
+    border-radius: 23px;
+    outline: none !important;
+    border: none !important;
+    font-family: 'Cabin' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 48px !important;
+    line-height: 58px !important;
+    text-align: center !important;
+    
+}
+p{
+    color: #FFFF;
+    margin-top: 20px !important;
+    margin-left: 390px !important;
+    font-family: 'Cabin' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 24px !important;
+    line-height: 24px !important;
+}
+a {
+color: #F9D423 !important;
+}
