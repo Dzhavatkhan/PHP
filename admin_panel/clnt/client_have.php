@@ -32,9 +32,6 @@ $sql3 = mysqli_query($connect, "SELECT * FROM `clients`");
                             <td><?=$phone?></td>
                             <td><?=$login?></td>
                             <td>
-                                <a href="clnt/update.php?id=<?=$table3['id']?>" class="btn btn-primary">Редактировать</a>
-                            </td>
-                            <td>
                                 <button class="btn btn-danger" onclick="deleteClient(<?=$table3['id']?>)">Удалить</button>
                             </td>
 

@@ -29,7 +29,7 @@
                     </tr> 
                   
                 <?}?>
-                <tr><td><button type="button" class="btn btn-primary " data-toggle="modal" data-target="#myModalB"> Добавить барбера</button></td></tr>
+                <tr><td><button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#myModalB"> Добавить барбера</button></td></tr>
                 
 
                    

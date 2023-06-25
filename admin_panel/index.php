@@ -12,14 +12,14 @@ $sql3 = mysqli_query($connect, "SELECT * FROM `clients`");
 <head>
   <title>Админ-панель</title>
   <meta charset="utf-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
   <link rel="shortcut icon" href="/assets/img/barber.png" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
 
 </head>
 <body>
@@ -35,13 +35,13 @@ $sql3 = mysqli_query($connect, "SELECT * FROM `clients`");
   <!-- Nav tabs -->
   <ul class="nav nav-tabs">
     <li class="nav-item">
-      <a class="nav-link active" href="#home">Записи</a>
+      <a class="nav-link active" data-bs-toggle="tab" href="#home">Записи</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#menu1">Барберы</a>
+      <a class="nav-link" data-bs-toggle="tab" href="#menu1">Барберы</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#menu2">Клиенты</a>
+      <a class="nav-link" data-bs-toggle="tab" href="#menu2">Клиенты</a>
     </li>
   </ul>
 
@@ -67,7 +67,7 @@ $sql3 = mysqli_query($connect, "SELECT * FROM `clients`");
                         <!-- Modal Header -->
                         <div class="modal-header">
                             <h4 class="modal-title">Modal Heading</h4>
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <button type="button" class="close" data-bs-dismiss="modal">&times;</button>
                         </div>
 
                         <!-- Modal body -->
@@ -83,7 +83,7 @@ $sql3 = mysqli_query($connect, "SELECT * FROM `clients`");
 
                         <!-- Modal footer -->
                         <div class="modal-footer">
-                        <button type="submit" class="btn btn-primary">
+                        <button type="submit" data-bs-dismiss="modal" class="btn btn-primary">
                             Отправить
                         </button>
                         </div>
@@ -104,13 +104,8 @@ $sql3 = mysqli_query($connect, "SELECT * FROM `clients`");
   </div>
 </div>
 
-<script>
-$(document).ready(function(){
-  $(".nav-tabs a").click(function(){
-    $(this).tab('show');
-  });
-});
-</script>
+
+
 <script src="/assets/admin.js"></script>
 
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>

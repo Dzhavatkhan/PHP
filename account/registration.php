@@ -28,22 +28,22 @@ session_start();
     <h2>Регистрация</h2>
 
     <?php if(isset($_SESSION['error'])):?>
-        <div class="alert text-center" style="width: 564px !important; background-color: white !important; color: #032785 !important; position: relative; left: 378px !important;" > <?=$_SESSION['error'];?></div>
+        <div class="alert text-center" style="width: 564px !important; background-color: white !important; color: #032785 !important; position: relative; left: 378px !important; top:25px;" > <?=$_SESSION['error'];?></div>
         <?php unset($_SESSION['error']);?>
         <?php endif;?>
 
     <form action="/account/register.php" method="post" class="form">
         <div class="mb-3">
-            <input type="text" name="client_name" class="form-control" placeholder="Введите Ваше имя">
+            <input type="text" data-bs-toggle="tooltip" title="Должно быть заполенено на кириллице" name="client_name" class="form-control" placeholder="Введите Ваше имя">
         </div>
         <div class="mb-3">
-            <input type="text" name="phone" class="form-control" placeholder="Введите Ваш номер телефона">
+            <input type="text" data-bs-toggle="tooltip" title="Номер телефона должен начинаться с '+' или '8'и быть не более 12 символов " name="phone" class="form-control" placeholder="Введите Ваш номер телефона">
         </div>
         <div class="mb-3">
-            <input type="text" name="login" class="form-control"  placeholder="Введите логин">
+            <input type="text" data-bs-toggle="tooltip" title="Логин должен содержать латинские буквы и быть более 4 символов" name="login" class="form-control"  placeholder="Введите логин">
         </div>
         <div class="mb-3">
-            <input type="password" name="password" class="form-control"  placeholder="Введите пароль">
+            <input type="password" data-bs-toggle="tooltip" title="Пароль должен быть больше 7 символов!" name="password" class="form-control"  placeholder="Введите пароль">
         </div>
         <div class="mb-3">
             <input type="password" name="password_conf" class="form-control"  placeholder="Подтвредите пароль">
@@ -59,5 +59,11 @@ session_start();
 
 </body>
 <script src="../assets/reg.js"></script>
+<script>
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+</script>
 </html>
 

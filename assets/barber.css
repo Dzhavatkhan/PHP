@@ -1,7 +1,11 @@
 *{
-    /* rgba(1, 17, 56, 0.863388) */
-    /* background: linear-gradient(90deg, #010221 0%, rgba(1, 17, 56, 0.863388) 100%); */
+    padding: 0;
+    margin: 0;
+
+}
+body{
     background-color: #010221 !important;
+    height: 1180px !important;
 }
 .row{
     background: transparent !important;
@@ -14,7 +18,7 @@ div{
     height: 49px;
     left: 241px;
     top: 795px;
-    font-family: 'Inter' !important;
+    font-family: 'Roboto' !important;
     font-style: normal !important;
     font-weight: 400 !important;
     font-size: 32px !important;
@@ -41,8 +45,8 @@ div{
     height: 50px !important;
 }
 img{
-    width: 604px;
-    height: 494px;
+    width: 530px;
+    height: 500px;
 }
 .barber{
     margin-left: 15px !important;

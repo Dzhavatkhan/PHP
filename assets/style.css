@@ -36,7 +36,7 @@ nav{
     position: absolute;
     width: 708px;
     height: 215px;
-    left: 173px;
+    left: 120px;
     top: 280px;
     
     font-family: 'Nunito';
@@ -49,9 +49,10 @@ nav{
 }
 .more{
     position: absolute;
+    border: transparent;
     width: 402px;
     height: 61px;
-    left: 173px;
+    left: 241px;
     top: 480px;
     font-family: 'Roboto';
     font-style: normal;
@@ -85,11 +86,12 @@ header a:hover{
 
 
             .carousel img{
-                height: 985px;
-                width: 95vw;
+                height: 998px;
+                width: 100% !important;
             } 
             .carousel{
-                /* margin-left: 35px; */
+                    margin-left: 95px;
+                    width: 1730px !important;
             }
 
             .go{
@@ -163,23 +165,66 @@ header a:hover{
             }
             .about_us{
                 margin-top: 90px;
-                height: 980px !important;
+                height: 960px !important;
                 color: #FFFFFF !important;
                 width: 99vw !important;
                 background: linear-gradient(270deg, #011138 0%, #010221 98.9%) !important;
                
             }
             .about_us h2{
+                width: 718px;
+                height: 194px;
                 position: relative;
-                width: 150px !important;
-                top: 85px !important;
-                left: 242px !important ;
-                font-family: 'Nunito' !important;
-                font-style: normal !important;
-                font-weight: 400 !important;
-                font-size: 48px !important;
-                line-height: 58px !important;
-                text-align: center !important;
+                left: 601px !important;
+                color: #FFF;
+                text-align: center;
+                top: 53px;
+                font-size: 64px;
+                font-family: 'Open Sans';
+            }
+            .about_us img{
+                position: relative;
+                top: 40px;
+                left: 47px;
+            }
+            .about_us .container{
+                position: relative;
+                top: 75px;
+                margin-left: 180px;
+            }
+            .about_us .row{
+                width: 1600px !important;
+            }
+            .about_us h3{
+                width: 348px;
+                position: relative;
+                z-index: 3;
+                top: 66px;
+                left: 20px;
+                color: #032785;
+                text-align: center;
+                font-size: 36px;
+                font-family: 'Roboto';
+            }
+            .comfort{
+                position: relative;
+                width: 348px;
+                left: 35px !important;
+            }
+            .about_us .col-3:first-child{
+                width: 417px;
+                margin-left: 0;
+                height: 524px;
+                background: #FFFFFF;
+            }
+            .about_us .col-3{
+                width: 417px;
+                margin-left: 94px !important;
+                height: 524px;
+                background: #FFFFFF;
+            }
+            .about_us img{
+
             }
             .about_us p{
                 margin-top: 150px;
@@ -279,6 +324,11 @@ footer .container{
     font-family: 'Nunito' !important;
     font-style: normal !important;
     font-weight: 400 !important;
-    font-size: 14px !important;
+    font-size: 20px !important;
     line-height: 17px !important;
+}
+.socety{
+    position: absolute;
+    width: 450px !important;
+    left: 1400px !important;
 }

@@ -31,8 +31,9 @@ h2{
     font-size: 32px !important;
     line-height: 39px;
     margin-left: 372px;
-    margin-top: 58px;
+    margin-top: 38px;
 }
+
 .back{
     position: absolute;
     width: 50px;
@@ -42,7 +43,7 @@ h2{
 }
 .form{
     position: relative;
-    top: -17px !important;
+    top: 20px !important;
 }
 .form-control::placeholder{
     font-family: 'Cabin';
