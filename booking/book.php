@@ -95,7 +95,7 @@ function timeslots($start,$duration,$end,$cleanup){
   <body>
     <div class="container">
         <h1 class="text-center">Запись на: <?php echo date('d.m.Y', strtotime($date)); ?></h1><hr>
-        <a href="../booking/calendar.php?barber_id=<?=$barber_id?>"><img width="50" class="img-fluid" src="/assets/img/free-icon-back-arrow-7710485.png" alt=""></a>
+        <a href="../index.php"><img width="50" class="img-fluid" src="/assets/img/free-icon-back-arrow-7710485.png" alt=""></a>
         <div class="row">
             <?php
             $timeslots = timeslots($start, $duration, $end, $cleanup);

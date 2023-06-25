@@ -26,9 +26,9 @@
                 $sql = mysqli_query($connect, $query);
                 while($barber = mysqli_fetch_assoc($sql)){
             ?>
-            <div class="col-3 mt-5 me-4 barber">
+            <div class="col-3 mt-4 me-4 barber">
                 <input type="hidden" name="id" value="<?=$barber['barber_id']?>">
-                <img src="/assets/uploads/<?=$barber['avatar']?>" class="avatar img-fliud" width="200" alt="">
+                <img src="/assets/uploads/<?=$barber['avatar']?>" class="avatar img-fliud" alt="">
                 <h3 class="name"><?=$barber['name']?></h3>
                 
                 <a class="btn mt-3" href="/booking/calendar.php?barber_id=<?=$barber['barber_id']?>">Записаться</a>

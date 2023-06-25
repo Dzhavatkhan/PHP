@@ -10,6 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <title>Каприз</title>
@@ -53,7 +54,7 @@
                     </a>
             <?}
             else{?>
-                    <a class="navbar-brand " href="/account/index.php">
+                    <a class="navbar-brand me-5" href="/account/index.php">
                         <img src="/assets/img/image 1 (1).png"  style="width:40px;" class=" img-fliud rounded-pill profile_icon"> 
                     </a>
                 <?
@@ -101,13 +102,13 @@
             <!-- The slideshow/carousel -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                <img src="/assets/img/u-parikmahera.jpg" style="width: 99vw;"  class=" img-fliud d-block">
+                <img src="/assets/img/u-parikmahera.jpg"   class=" img-fliud d-block">
                 </div>
                 <div class="carousel-item">
-                <img src="/assets/img/IMG_4865 1.png"  class="d-block img-fliud" style="width: 99vw;">
+                <img src="/assets/img/IMG_4865 1.png"  class="d-block img-fliud" >
                 </div>
                 <div class="carousel-item">
-                <img src="/assets/img/IyuNe81Ftcg.jpg"  class="d-block img-fliud" style="width: 99vw;" >
+                <img src="/assets/img/IyuNe81Ftcg.jpg"  class="d-block img-fliud" >
                 </div>
             </div>
             
@@ -123,12 +124,26 @@
         </section>
 
         <section class="about_us" id="about_us">
-            <h2 class="oNas">
-                 О нас
-            </h2>
-            <p class="body" >Добро пожаловать в нашу парикмахерскую! Наша миссия - помочь нашим клиентам выглядеть и чувствовать себя уверенно и красиво. Мы стремимся к тому, чтобы каждый клиент уходил от нас довольным результатом и полностью удовлетворенный нашим сервисом.Мы гордимся тем, что создали дружественную и приятную атмосферу в нашей парикмахерской, где каждый клиент может расслабиться и насладиться процессом создания своей прически.Мы всегда рады видеть новых клиентов и готовы предложить вам наши услуги по разумным ценам. Обращайтесь к нам и мы обещаем, что вы останетесь довольны нашей работой!</p>
-            <img class="house" src="/assets/img/h150.png" alt="">
+            <h2>Наши преимущества</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-3 a_u-block">
+                        <img src="assets/img/ind_pod.png" alt="" class="img-fluid">
+                        <h3 class="text-center">Личный подход</h3>
+                    </div>
+                    <div class="col-3 ms-3">
+                        <img src="assets/img/exp.png" alt="" class="img-fluid">
+                        <h3 class="text-center">Профессионализм</h3>
+                    </div>
+                    <div class="col-3 ms-3">
+                        <img src="assets/img/comfort.png" alt="" class="img-fluid">
+                        <h3  class="text-center comfort">Комфорт</h3>
+                    </div>
+                </div>
+            </div>
         </section>
+
+
 
         <section class="go">
             <h3 class="question">
@@ -151,7 +166,7 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col mt-4 socety">
                     <a href="https://www.flaticon.com/search?word=vk">
                         <img class="vk" src="/assets/img/vk (1).png" alt="">
                     </a>
@@ -163,7 +178,7 @@
                     </a>
                 </div>
             </div>
-            <div class="row">
+            <div class="row mt-5">
                 <p class="navbar-brand h2 text-white" href="#">Каприз</p>
             </div>
             <div class="row">
